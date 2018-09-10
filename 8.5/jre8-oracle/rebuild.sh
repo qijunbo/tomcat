@@ -7,5 +7,5 @@ if [ -z "${version}" ]; then
 fi
  
 chmod 777 *.sh
-docker image build -t tomcat:$1  .
+docker image build -t tomcat:${version}  .
 docker images  
