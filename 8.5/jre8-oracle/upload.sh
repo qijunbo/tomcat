@@ -1,5 +1,5 @@
 #version=$1
-version=jdk8_oracle
+version=jre8-oracle
 if [ -z "${version}" ]; then
    echo "[error:] version is not specified."
    echo "[usage:] $0 <version>"    	

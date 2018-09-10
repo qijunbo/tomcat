@@ -1,6 +1,6 @@
 #!/bin/sh
 #version=$1
-version=jdk8_oracle
+version=jre8-oracle
 if [ -z "${version}" ]; then 
    echo Usage: ${0} version
    exit -1 ;
